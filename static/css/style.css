@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Gugi&family=Hahmlet:wght@200&display=swap');
+
+
+body {
+	background-color:  rgb(45, 47, 45);
+}
+
+.intro {
+	font-family: 'Hahmlet';
+	font-size:larger;
+	color: #ddd;
+	font-weight: 400;
+	text-align: justify;
+}
+
+header.background {
+	background-image: url("../image/background.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 30%;
+	padding: 0;
+	border: 0;
+
+    font-family: 'Gugi', sans-serif;
+	text-align: center;
+	color: rgb(53, 55, 54);
+	font-size: x-large;
+}
+
+header.background h1 {
+	padding-top: 1em;
+}
+
+.link-box-wrapper {
+	color: #6c8484;
+	text-decoration: none;
+}
+
+.link-box {
+	margin: 1em;
+	line-height: 7em;
+	display: block;
+	width: 70%;
+	height: 7em;
+	border: solid;
+	border-radius: 1em;
+	background-color: #ddd;
+	border-color: #ddd;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: Hahmlet;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+
+.link-box img {
+	width: 5em;
+	height: 5em;
+	position: relative;
+	left: 2em;
+	top: 1em;
+	bottom: 1em;
+	float: left;
+	border-radius: 20%;
+}
+
+.link-box:hover {
+	background-color: thistle;
+}
+
+.flight-schedule {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: 'Gugi';
+	color: rgb(38, 159, 196);
+}
+
+
+.flight-box {
+	line-height: 7em;
+	display: inline-block;
+	width: 40%;
+	height: 7em;
+	border: solid;
+	border-radius: 2em;
+	font-size: medium;
+	cursor: pointer;
+	font-family: Hahmlet;
+	padding-left: 1em;
+	overflow: hidden;
+	clear: both;
+	background-color: azure;;
+}
+
+.flight-box img {
+	display: inline-block;
+	width: 5em;
+	height: 5em;
+	position: relative;
+	vertical-align: middle;
+}
+
+.flight-box div.flight-way {
+	display: inline-block;
+	position: relative;
+	width:65%;
+	font-family: 'Fira Code';
+	color:rgb(92, 147, 198);
+
+	text-align: center;
+}
+
+.flight-box div.flight-price {
+	display: inline-block;
+	position: relative;
+	width: 20%;
+	font-family: 'Gugi';
+	text-align: right;
+}
+
+.link-box:hover {
+	background-color: thistle;
+}
+
+.link-box img {
+	vertical-align: middle;
+}
+
+.gallery-image-box {
+	display: inline-block;
+	width: 30%;
+	height: 500px;
+	position: relative;
+}
+
+.gallery-image-box img {
+	display: flex;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.image-box {
+	display: inline-block;
+	width: 35%;
+	height: 35%;
+	position: relative;
+}
+
+.image-box img {
+	display: block;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.multi-image-box {
+	padding-top: 1em;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.multi-image-box img {
+	display: inline-block;
+	width: 49%;
+	height: 50%;
+	max-width: 49%;
+	max-height: 50%;
+	object-fit:cover;
+}
+
+.image-container {
+	display: inline-block;
+	width: 30%;
+	height: 720px;
+	align-items: center;
+	color: white;
+	font-family: 'Gugi';
+}
+
+.image-container .image-box {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.image-container .caption {
+	margin-top: 1em;
+	display: block;
+	width: 100%;
+	height: 30%;
+	border: #ddd solid;
+	overflow-y: hidden;
+}
+
+.restaurant-container {
+	display: inline-block;
+	border: solid;
+	width: 45%;
+	height: 600px;
+	margin-left: 3%;
+	text-align: center;
+}
+
+.restaurant-container .image-container {
+	display: inline-block;
+	position: relative;
+	max-width: 80%;
+	max-height: 60%;
+	width: 80%;
+	height: 60%;
+}
+
+
+.restaurant-container .image-container .caption {
+	text-align: center;
+	height: 40%;
+}
+
+.restaurant-container .map {
+	display: inline-block;
+	position: relative;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.restaurant-container .map img {
+	width: 30%;
+	height: 30%;
+}
+
+
+.tour-container {
+	display: inline-block;
+	border: solid;
+	width: 45%;
+	height: 700px;
+	margin-left: 3%;
+	align-items: center;
+}
+
+.tour-container .image-container {
+	display: inline-block;
+	position: relative;
+	max-width: 90%;
+	max-height: 70%;
+	width: 90%;
+	height: 70%;
+	padding-left: 5%;
+}
+
+.tour-container .image-container .caption {
+	height: 20%;
+	padding-top: 2em;
+	text-align: center;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #3a3b3b;
+	font-family: 'Hahmlet', sans-serif;
+	color: white;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #6c8484;
+	background-color: #6c8484;
+}
+
+/* The container <div> - needed to position the dropdown content */
+nav {
+	position: relative;
+	display: block;
+	background-color: #3a3b3b;
+
+	font-family: 'Hahmlet', sans-serif;
+}
+
+ul.menu-list {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+ul.menu-list li {
+	list-style: none;
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #494f4a;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	color: #ddd;
+}
+
+.dropdown-content a:hover {background-color: rgb(117, 140, 139);}
+
+.show {display:block;}

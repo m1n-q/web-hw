@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<title></title>
+
+		<link rel="stylesheet" href="static/css/style.css">
+		<script type="text/javascript" src="static/js/dropdown.js"></script>
+	</head>
+	<body>
+			<header class="background">
+				<h1>한류 관광 안내</h1>
+			</header>
+			<nav>
+				<ul class="menu-list">
+					<li>
+						<button onclick="showDropDown(this.nextElementSibling)" class="dropbtn">🏠</button>
+						<div id="dropdown" class="dropdown-content">
+							<a href="/index.html">사이트 소개</a>
+							<a href="/gallery.html">갤러리</a>
+						</div>
+					</li>
+					<li>
+						<button onclick="showDropDown(this.nextElementSibling)" class="dropbtn">콘서트 정보</button>
+						<div id="dropdown" class="dropdown-content">
+							<a href="/concert-idol.html">아이돌 콘서트</a>
+							<a href="/concert-etc.html">기타 국내 가수 콘서트</a>
+							<a href="/concert-booking.html">예매 사이트</a>
+						</div>
+					</li>
+				<li>
+					<button onclick="showDropDown(this.nextElementSibling)" class="dropbtn">맛집 정보</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="/restaurant-local.html">로컬 맛집</a>
+						<a href="/restaurant-michelin.html">미슐랭 맛집</a>
+					</div>
+				</li>
+				<li>
+					<button onclick="showDropDown(this.nextElementSibling)" class="dropbtn">관광지 정보</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="/tourist-attraction.html">주요 관광지</a>
+
+					</div>
+				</li>
+				<li>
+					<button onclick="showDropDown(this.nextElementSibling)" class="dropbtn">항공권 정보</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="/flight-info.html">항공 가격 안내</a>
+						<a href="/flight-info-site.html">항공권 정보 사이트</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<section>
+			<center>
+				<div class="flight-schedule"><h1>2022/12/15 - 2022/12/31</h1></div>
+				<div class="flight-box">
+					<img src="https://pic.tripcdn.com/airline_logo/3x/lj.webp">
+					<div class="flight-way"><strong>Tokyo <-------------------> Incheon</div>
+					<div class="flight-price">₩ 291,600</div>
+				</div>
+				<div class="flight-box">
+					<img src="https://pic.tripcdn.com/airline_logo/3x/af.webp">
+					<div class="flight-way">Paris <-------------------> Incheon</div>
+					<div class="flight-price">₩ 2,137,500</div>
+				</div>
+				<div class="flight-box">
+					<img src="https://pic.tripcdn.com/airline_logo/3x/ke.webp">
+					<div class="flight-way">London <-------------------> Incheon</div>
+					<div class="flight-price">₩ 2,900,600</div>
+				</div>
+				<div class="flight-box">
+					<img src="https://pic.tripcdn.com/airline_logo/3x/tk.webp">
+					<div class="flight-way">New York <-------------------> Incheon</div>
+					<div class="flight-price">₩ 2,940,400</div>
+				</div>
+				<div class="flight-box">
+					<img src="https://pic.tripcdn.com/airline_logo/3x/oz.webp">
+					<div class="flight-way">Sanghai <-------------------> Incheon</div>
+					<div class="flight-price">₩ 2,474,900</div>
+				</div>
+				<div class="flight-box">
+					<img src="https://pic.tripcdn.com/airline_logo/3x/qf.webp">
+					<div class="flight-way">Sydney <-------------------> Incheon</div>
+					<div class="flight-price">₩ 2,366,100</div>
+				</div>
+			</center>
+		</section>
+	</body>
+</html>
